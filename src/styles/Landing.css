@@ -1,0 +1,53 @@
+#home-title1{
+    text-align: center;
+    margin-top:35vh;
+    color: #34495e;
+    font-family: 'Lemonada', cursive;
+    text-shadow: -1px -1px 0 #ecf0f1, 1px -1px 0 #ecf0f1, -1px 1px 0 #ecf0f1, 1px 1px 0 #ecf0f1;
+}
+
+#home-container1{
+    margin-left: 10vh;
+    margin-right: 10vh;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 4fr);
+
+}
+
+#home-container1 > div{
+ 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 2px #fcfcfca4;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#home-container1 > div:active{
+    border: inset
+}
+
+.main-directory-text{
+    font-family: 'Lemonada', cursive;
+    line-height: 150px;
+    font-size: 2em;
+    color: #ecf0f1;
+    text-shadow: -1px -1px 0 #2c3e50, 1px -1px 0 #2c3e50, -1px 1px 0 #2c3e50, 1px 1px 0 #2c3e50;
+}
+
+#user1{
+    background-color: rgba(255, 0, 0, 0.322)
+}
+#user2{
+    background-color: rgba(38, 145, 12, 0.322)
+}
+#user3{
+    background-color: rgba(255, 208, 0, 0.322)
+}
+#user4{
+    background-color: rgba(25, 0, 255, 0.322)
+}
+

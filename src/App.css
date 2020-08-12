@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+#main-links > a{
+  font-family: 'Lemonada', cursive;
+  font-size: 20px;
+  margin: 20px;
+  color: #000000;
+  text-align: start;
+  text-shadow: -1px -1px 0 #ecf0f1, 1px -1px 0 #ecf0f1, -1px 1px 0 #ecf0f1, 1px 1px 0 #ecf0f1;
+}
+
+*{
+  text-decoration: none;
+  font-family: 'Cinzel Decorative'
+}
+
+a{
+  cursor: pointer;
+  color: black;
+}
+
+#home-background{
+  background-image: url(https://i.pinimg.com/originals/28/60/d1/2860d11aec6b98341e47052a9de747b6.jpg);
+  height: 300vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
