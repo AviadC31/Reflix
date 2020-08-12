@@ -1,0 +1,129 @@
+#u-input{
+    position: absolute;
+    top: 20%;
+    left: 12%;
+}
+
+input{
+    display: inline-block;
+    font-family: 'Lemonada', cursive;
+    width: 65vw;
+    padding: 1vh;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+    color: #2c3e50;
+    vertical-align: bottom; /*aligns bottom of two divs with the same parent*/
+}
+
+#button{
+    background-color: #3498db;
+    font-family: 'Lemonada', cursive;
+    border: none;
+    color: white;
+    padding: 1vh;
+    width: 5vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 2px #bdd4cd inset;
+    border-left: none;
+    cursor: pointer;
+}
+
+#button:active{
+    background-color: #2980b9
+}
+img{
+    height: 50vh;
+    width: 100%;
+    border-radius: 10%;
+}
+#button-container{
+    display:inline-block;
+    position:relative;
+    }
+     
+    #button-container a{
+    font-family: 'Lemonada', cursive;
+    position: absolute;
+    bottom:22em;
+    right:1em;
+    background-color:#000000;
+    border-radius: 100%;
+    color:rgb(255, 255, 255);
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 1px;
+    }
+
+    #button-container p{
+        font-family: 'Lemonada', cursive;
+        position: absolute;
+        bottom:21em;
+        right:23em;
+        background-color:#000000;
+        border-radius: 100%;
+        color:rgb(255, 255, 255);
+        padding-left: 4px;
+        padding-right: 4px;
+        }
+
+
+
+#home-title2{
+    margin-top:20vh;
+    text-align: center;
+    color: #000000;
+    font-family: 'Lemonada', cursive;
+    text-shadow: -1px -1px 0 #ecf0f1, 1px -1px 0 #ecf0f1, -1px 1px 0 #ecf0f1, 1px 1px 0 #ecf0f1;
+}
+
+#budget{
+    text-align: end;
+    margin-right:5vw;
+    color: #000000;
+    font-family: 'Lemonada', cursive;
+    text-shadow: -1px -1px 0 #ecf0f1, 1px -1px 0 #ecf0f1, -1px 1px 0 #ecf0f1, 1px 1px 0 #ecf0f1;
+}
+
+.home-container2{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 10fr);
+
+}
+
+.home-container2 > div{
+ 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.home-container2 > div:active{
+    border: inset
+}
+
+.details{
+/* margin-top:200px; */
+    width: 200px;
+}
+h1{
+color: white;
+font-family: 'Lemonada', cursive;
+margin-top: 200px;
+}
+
+p{
+    color: white;
+    font-family: 'Lemonada', cursive; 
+}
